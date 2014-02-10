@@ -4,12 +4,6 @@ python-indicator-jdownloader-remote
 This is a python indicator for the jdownloader remote api.
 
 ___________________________________________________
-
-**Please donate to "DQ6mBVyuboTGwS8JYW11oHwXtxsjNAzkzi" [DOGECOIN]** 
-
-<qr-donation>
-
-___________________________________________________
  
 _Features_
 * server status
@@ -22,5 +16,11 @@ ___________________________________________________
 
 See for yourself:
 
-<screenshot-snippet>
+!["Dogecoin Donation QR-Code"](http://github.com/Dirrot/python-indicator-jdownloader-remote/blob/master/img/idicator-snippet.png?raw=true)
 
+
+___________________________________________________
+
+**Please donate to "DQ6mBVyuboTGwS8JYW11oHwXtxsjNAzkzi" [DOGECOIN]** 
+
+!["Dogecoin Donation QR-Code"](http://github.com/Dirrot/python-cryptocoincharts-api/blob/master/img/donation-qr-code.png?raw=true)

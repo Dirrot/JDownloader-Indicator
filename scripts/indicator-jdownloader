@@ -1,0 +1,26 @@
+#!/bin/sh
+##
+
+case "$1" in 
+ start)  
+  echo "Starting indicator-jdremote ..."   
+  python /etc/indicator-jdremote/indicator-jdremote.py
+  echo "done ..."  
+ ;; 
+ stop)  
+  echo "Terminating indicator-jdremote ..."   
+  killall indicator-jdremote
+  echo "done ..." 
+ ;;
+ restart)
+  echo "Restarting indicator-jdremote" 
+  killall indicator-jdremtoe
+  python /etc/indicator-jdremote/indicator-jdremote.py
+ ;;
+ *)
+  echo "Usage: /etc/init.d/indicator-jdremote {start|stop|restart}" 
+  exit 1
+ ;;
+esac
+
+exit 0

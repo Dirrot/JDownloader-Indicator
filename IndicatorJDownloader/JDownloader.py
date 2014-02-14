@@ -141,9 +141,11 @@ def redraw_ui(indicator):
             else:
                 strAllFiles = str(allFiles)            
             
-            menuitem = gtk.MenuItem(download["percent"] + "\t%\t" 
+            menuitem = gtk.MenuItem(download["percent"] + "%\t" 
+		+ download["speed"] + "/s\t" 
                 + "[" + strDoneFiles + "/" + strAllFiles + "]\t" 
-                + download["name"])
+                + download["name"] + "\t" 
+		+ download["ETA"])
             menuitem.show()
             menu.append(menuitem)                   
     
